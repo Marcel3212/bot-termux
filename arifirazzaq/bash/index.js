@@ -1,14 +1,25 @@
-//SCRIP INI PUNYA ARIFI RAZZAQ OFFICIAL
-//GUA GAK IZIN CASE GUA DI AMBIL
-//JIKA REMAKE OWNER TOLONG SADAR DIRI 
-//JANGAN SEMUA ELU UBAH
-//SETIDAKNYA BISNIS GUA JANGAN DI REMAKE! 
-//DAN INFORMASI KONTAK DEVELOPER JANGAN!
-//ITU DI LARANG KERAS! GUA GAK IZIN SUMPAH!
-//TOLONG SALING SUPPORT! 
-//REZEKI UDAH DI ATUR ALLAH! 
-//JANGAN LUPA SUBSCRIBE ARIFI RAZZAQ OFFICIAL
-//SERTAKAN SANAD CREATOR BOT TERDAHULU
+//SCRIP INI PUNYA ARIFI RAZZAQ OFFICIAL
+
+//GUA GAK IZIN CASE GUA DI AMBIL
+
+//JIKA REMAKE OWNER TOLONG SADAR DIRI 
+
+//JANGAN SEMUA ELU UBAH
+
+//SETIDAKNYA BISNIS GUA JANGAN DI REMAKE! 
+
+//DAN INFORMASI KONTAK DEVELOPER JANGAN!
+
+//ITU DI LARANG KERAS! GUA GAK IZIN SUMPAH!
+
+//TOLONG SALING SUPPORT! 
+
+//REZEKI UDAH DI ATUR ALLAH! 
+
+//JANGAN LUPA SUBSCRIBE ARIFI RAZZAQ OFFICIAL
+
+//SERTAKAN SANAD CREATOR BOT TERDAHULU
+
 //JANGAN LUPA PASANG CC TIM ARIFI - HASUFA TEAM 
 const {
     MessageOptions,
@@ -100,8 +111,8 @@ vz = '*Terima Kasih Sudah Daftar Di HASUFA BOT*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
             + 'FN: JODOH MU\n' //
-            + 'ORG:Creator HASUFA BOT;\n' //
-            + 'TEL;type=CELL;type=VOICE;waid=62895622955538:+62895622955538 \n' //
+            + 'ORG:Marcel BOT;\n' //
+            + 'TEL;type=CELL;type=VOICE;waid=6285372906349:+6285372906349 \n' //
             + 'END:VCARD'
 prefix = '/'
 blocked = []
@@ -755,21 +766,35 @@ client.on('message-new', async (mek) => {
 					if (!isOwner) return reply('Kamu Siapa Owner?')
 					client.sendMessage(from, addfoto(prefix), text, { quoted: mek })
 					break
-					case 'goku':
-                if (!isUser) return reply(mess.only.userB)
-                     reply(ind.wait())
-					anu = await fetchJson(`https://api.fdci.se/rep.php?gambar=Goku SuperSaiyan`, {method: 'get'})
-					naru = JSON.parse(JSON.stringify(anu));
-					to =  naru[Math.floor(Math.random() * naru.length)];
-					nye = await getBuffer(to)
-					client.sendMessage(from, nye, image, { caption:'Goku!!', quoted: mek })
-					await limitAdd(sender)
+					case 'goku':
+
+                if (!isUser) return reply(mess.only.userB)
+
+                     reply(ind.wait())
+
+					anu = await fetchJson(`https://api.fdci.se/rep.php?gambar=Goku SuperSaiyan`, {method: 'get'})
+
+					naru = JSON.parse(JSON.stringify(anu));
+
+					to =  naru[Math.floor(Math.random() * naru.length)];
+
+					nye = await getBuffer(to)
+
+					client.sendMessage(from, nye, image, { caption:'Goku!!', quoted: mek })
+
+					await limitAdd(sender)
+
 					break
-					case 'ttp':
-				ttp = body.slice(5)
-               anu = await fetchJson(`https://tobz-api.herokuapp.com/api/ttp?text=${body.slice(5)}&apikey=BotWeA`)
-				res = await getBase64(anu.base64)
-				client.sendMessage(from, res, sticker, {quoted:mek})
+					case 'ttp':
+
+				ttp = body.slice(5)
+
+               anu = await fetchJson(`https://tobz-api.herokuapp.com/api/ttp?text=${body.slice(5)}&apikey=BotWeA`)
+
+				res = await getBase64(anu.base64)
+
+				client.sendMessage(from, res, sticker, {quoted:mek})
+
 				break
 					case 'mm':
 					if (isBanned) return reply(mess.only.benned)    
@@ -822,16 +847,26 @@ client.on('message-new', async (mek) => {
 				reply (anu.result)
                 break
            
-                case 'katailham':
-				if (isBanned) return reply(mess.only.benned)
-                if (!isUser) return reply(mess.only.userB)
-                if (!isPublic) return reply(mess.only.publikG)
-
-                reply(mess.wait)
-				quotes = body.slice(1)
-				const kta =['Lebih baik mengerti sedikit daripada salah mengerti.','Hampir semua pria memang mampu bertahan menghadapi kesulitan. Namun, jika Anda ingin menguji karakter sejati pria, beri dia kekuasaan.','Bila tekad seseorang kuat dan teguh, Tuhan akan bergabung dalam usahanya.','Penderitaan adalah pelajaran.','Ilmu pengetahuan tanpa agama adalah pincang.','Hidup itu seperti sebuah sepeda, agar tetap seimbang kita harus tetap bergerak.','Perbedaan masa lalu, sekarang, dan masa depan tak lebih dari ilusi yang keras kepala.','Sebuah meja, sebuah kursi, semangkuk buah, dan sebuah biola; apa lagi yang dibutuhkan agar seseorang bisa merasa bahagia?','Belas kasihanlah terhadap sesama, bersikap keraslah terhadap diri sendiri.','Cara paling baik untuk menggerakkan diri Anda ialah memberi tugas kepada diri sendiri.','Kita tidak boleh kehilangan semangat. Semangat adalah stimulan terkuat untuk mencintai, berkreasi dan berkeinginan untuk hidup lebih lama.','Manusia akan bahagia selama ia memilih untuk bahagia.','Saya tidak berharap menjadi segalanya bagi setiap orang. Saya hanya ingin menjadi sesuatu untuk seseorang.','Apabila sempurna akal seseorang, maka sedikit perkataannya.','Bahagialah orang yang dapat menjadi tuan untuk dirinya, menjadi kusir untuk nafsunya dan menjadi kapten untuk bahtera hidupnya.','Sahabat yang jujur lebih besar harganya daripada harta benda yang diwarisi dari nenek moyang.','Yang paling melelahkan dalam hidup adalah menjadi orang yang tidak tulus.','Terbuka untuk Anda, begitulah Tuhan memberi kita jalan untuk berusaha. Jangan pernah berfikir jalan sudah tertutup.','Penundaan adalah kuburan dimana peluang dikuburkan.','Cinta bukan saling menatap mata, namun melihat ke arah yang sama bersama-sama.','Kita adalah apa yang kita kerjakan berulang kali. Dengan demikian, kecemerlangan bukan tindakan, tetapi kebiasaan.','Jangan pernah mencoba menjadikan putra atau putri Anda menjadi seperti Anda. Diri Anda hanya cukup satu saja.','Jika Anda bisa membuat orang lain tertawa, maka Anda akan mendapatkan semua cinta yang Anda inginkan.','Masalah akan datang cepat atau lambat. Jika masalah datang, sambut dengan sebaik mungkin. Semakin ramah Anda menyapanya, semakin cepat ia pergi.','Kita tak bisa melakukan apapun untuk mengubah masa lalu. Tapi apapun yang kita lakukan bisa mengubah masa depan.','Kesabaran adalah teman dari kebijaksanaan.','Orang-orang kreatif termotivasi oleh keinginan untuk maju, bukan oleh keinginan untuk mengalahkan orang lain.','Dimanapun engkau berada selalulah menjadi yang terbaik dan berikan yang terbaik dari yang bisa kita berikan.','Kebencian seperti halnya cinta, berkobar karena hal-hal kecil.','Anda tidak perlu harus berhasil pada kali pertama.','Satu jam yang intensif, jauh lebih baik dan menguntungkan daripada bertahun-tahun bermimpi dan merenung-renung.','Hal terbaik yang bisa Anda lakukan untuk orang lain bukanlah membagikan kekayaan Anda, tetapi membantu dia untuk memiliki kekayaannya sendiri.','Tidak ada jaminan keberhasilan, tetapi tidak berusaha adalah jaminan kegagalan.','Aku tidak tahu kunci sukses itu apa, tapi kunci menuju kegagalan adalah mencoba membuat semua orang senang.']
-				const su = kta[Math.floor(Math.random() * kta.length)]
-				client.sendMessage(from, ''+su+'\n\n_-Ilham._', text, { quoted: mek })
+                case 'katailham':
+
+				if (isBanned) return reply(mess.only.benned)
+
+                if (!isUser) return reply(mess.only.userB)
+
+                if (!isPublic) return reply(mess.only.publikG)
+
+
+
+                reply(mess.wait)
+
+				quotes = body.slice(1)
+
+				const kta =['Lebih baik mengerti sedikit daripada salah mengerti.','Hampir semua pria memang mampu bertahan menghadapi kesulitan. Namun, jika Anda ingin menguji karakter sejati pria, beri dia kekuasaan.','Bila tekad seseorang kuat dan teguh, Tuhan akan bergabung dalam usahanya.','Penderitaan adalah pelajaran.','Ilmu pengetahuan tanpa agama adalah pincang.','Hidup itu seperti sebuah sepeda, agar tetap seimbang kita harus tetap bergerak.','Perbedaan masa lalu, sekarang, dan masa depan tak lebih dari ilusi yang keras kepala.','Sebuah meja, sebuah kursi, semangkuk buah, dan sebuah biola; apa lagi yang dibutuhkan agar seseorang bisa merasa bahagia?','Belas kasihanlah terhadap sesama, bersikap keraslah terhadap diri sendiri.','Cara paling baik untuk menggerakkan diri Anda ialah memberi tugas kepada diri sendiri.','Kita tidak boleh kehilangan semangat. Semangat adalah stimulan terkuat untuk mencintai, berkreasi dan berkeinginan untuk hidup lebih lama.','Manusia akan bahagia selama ia memilih untuk bahagia.','Saya tidak berharap menjadi segalanya bagi setiap orang. Saya hanya ingin menjadi sesuatu untuk seseorang.','Apabila sempurna akal seseorang, maka sedikit perkataannya.','Bahagialah orang yang dapat menjadi tuan untuk dirinya, menjadi kusir untuk nafsunya dan menjadi kapten untuk bahtera hidupnya.','Sahabat yang jujur lebih besar harganya daripada harta benda yang diwarisi dari nenek moyang.','Yang paling melelahkan dalam hidup adalah menjadi orang yang tidak tulus.','Terbuka untuk Anda, begitulah Tuhan memberi kita jalan untuk berusaha. Jangan pernah berfikir jalan sudah tertutup.','Penundaan adalah kuburan dimana peluang dikuburkan.','Cinta bukan saling menatap mata, namun melihat ke arah yang sama bersama-sama.','Kita adalah apa yang kita kerjakan berulang kali. Dengan demikian, kecemerlangan bukan tindakan, tetapi kebiasaan.','Jangan pernah mencoba menjadikan putra atau putri Anda menjadi seperti Anda. Diri Anda hanya cukup satu saja.','Jika Anda bisa membuat orang lain tertawa, maka Anda akan mendapatkan semua cinta yang Anda inginkan.','Masalah akan datang cepat atau lambat. Jika masalah datang, sambut dengan sebaik mungkin. Semakin ramah Anda menyapanya, semakin cepat ia pergi.','Kita tak bisa melakukan apapun untuk mengubah masa lalu. Tapi apapun yang kita lakukan bisa mengubah masa depan.','Kesabaran adalah teman dari kebijaksanaan.','Orang-orang kreatif termotivasi oleh keinginan untuk maju, bukan oleh keinginan untuk mengalahkan orang lain.','Dimanapun engkau berada selalulah menjadi yang terbaik dan berikan yang terbaik dari yang bisa kita berikan.','Kebencian seperti halnya cinta, berkobar karena hal-hal kecil.','Anda tidak perlu harus berhasil pada kali pertama.','Satu jam yang intensif, jauh lebih baik dan menguntungkan daripada bertahun-tahun bermimpi dan merenung-renung.','Hal terbaik yang bisa Anda lakukan untuk orang lain bukanlah membagikan kekayaan Anda, tetapi membantu dia untuk memiliki kekayaannya sendiri.','Tidak ada jaminan keberhasilan, tetapi tidak berusaha adalah jaminan kegagalan.','Aku tidak tahu kunci sukses itu apa, tapi kunci menuju kegagalan adalah mencoba membuat semua orang senang.']
+
+				const su = kta[Math.floor(Math.random() * kta.length)]
+
+				client.sendMessage(from, ''+su+'\n\n_-Ilham._', text, { quoted: mek })
+
 				break
 					case 'kodenuklir':
 					if (isBanned) return reply(mess.only.benned)    
@@ -1370,7 +1405,8 @@ client.on('message-new', async (mek) => {
 				break
 case 'iri':
 const irimp3 = fs.readFileSync('./src/assets/iri.mp3');
-client.sendMessage(from, irimp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, irimp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'pale':
 const pa = fs.readFileSync('./src/assets/pale.mp3')
@@ -1388,7 +1424,8 @@ case 'baka':
 case 'bodoh':
 case 'onichan':
 const bakamp3 = fs.readFileSync('./src/assets/baka.mp3');
-client.sendMessage(from, bakamp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, bakamp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound':
 const soun = fs.readFileSync('./src/assets/sound.mp3')
@@ -1396,31 +1433,38 @@ client.sendMessage(from, soun, MessageType.audio, {quoted: mek, mimetype: 'audio
 break 
 case 'sound1':
 satu = fs.readFileSync('./src/assets/sound1.mp3');
-client.sendMessage(from, satu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, satu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound2':
 dua = fs.readFileSync('./src/assets/sound2.mp3');
-client.sendMessage(from, dua, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, dua, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound3':
 tiga = fs.readFileSync('./src/assets/sound3.mp3');
-client.sendMessage(from, tiga, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, tiga, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound4':
 empat = fs.readFileSync('./src/assets/sound4.mp3');
-client.sendMessage(from, empat, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, empat, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound5':
 lima = fs.readFileSync('./src/assets/sound5.mp3');
-client.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound6':
 enam = fs.readFileSync('./src/assets/sound6.mp3');
-client.sendMessage(from, enam, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, enam, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break
 case 'sound7':
 tujuh = fs.readFileSync('./src/assets/sound7.mp3');
-client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+
 break							             
                 
      
@@ -4671,19 +4715,32 @@ if (isBanned) return reply(mess.only.benned)
 					nyec = await getBuffer(ku)
 					client.sendMessage(from, nyec, image, { caption: 'COLI TERUS!!', quoted: mek })
 					break
-                case 'randombokep':
-				client.updatePresence(from, Presence.composing) 
-				 if (isBanned) return reply(mess.only.benned)    
-				if (!isUser) return reply(mess.only.userB)
-				if (!isPublic) return reply(mess.only.publikG)
-				 data = fs.readFileSync('./Fxc7/18.js');
-                 jsonData = JSON.parse(data);
-                 randIndex = Math.floor(Math.random() * jsonData.length);
-                 randKey = jsonData[randIndex];
-                 randBokep = await getBuffer(randKey.image)
-                 reply(mess.wait)
-                 randTeks = randKey.teks
-                 client.sendMessage(from, randBokep, image, {quoted: mek, caption: randTeks})
+                case 'randombokep':
+
+				client.updatePresence(from, Presence.composing) 
+
+				 if (isBanned) return reply(mess.only.benned)    
+
+				if (!isUser) return reply(mess.only.userB)
+
+				if (!isPublic) return reply(mess.only.publikG)
+
+				 data = fs.readFileSync('./Fxc7/18.js');
+
+                 jsonData = JSON.parse(data);
+
+                 randIndex = Math.floor(Math.random() * jsonData.length);
+
+                 randKey = jsonData[randIndex];
+
+                 randBokep = await getBuffer(randKey.image)
+
+                 reply(mess.wait)
+
+                 randTeks = randKey.teks
+
+                 client.sendMessage(from, randBokep, image, {quoted: mek, caption: randTeks})
+
 				break
 				case 'ytmp4':
 				if (isBanned) return reply(mess.only.benned)    
