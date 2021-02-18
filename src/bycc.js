@@ -36,6 +36,7 @@ const bycc = (prefix) => {
 | Arya GC
 | Eren GC
 | I-SUF GC
+| Marcel
 | All. Creator Bot lainnya.*
 `
 
