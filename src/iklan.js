@@ -21,7 +21,7 @@ const iklan = () => {
 ╠═══════════════════════════
 ╠➥ *JIKA MINAT IKLAN DIATAS*
 ╠➥ *HARAP HUBUNGI NOMOR DIBAWAH :*
-╠➥ *https://api.whatsapp.com/send?phone=6288705834498*
+╠➥ *https://api.whatsapp.com/send?phone=6285372906349*
 ║
 ╚═〘  FEEDZ BOT 〙
 
