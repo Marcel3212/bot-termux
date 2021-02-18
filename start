@@ -74,7 +74,7 @@ const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN:RIZKY\n' // MENDING LU TOBAT SU!
             + 'ORG:Creator XPTN;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6282387804410:+62 823-8780-4410\n' // JANGAN KEK BABI SU
+            + 'TEL;type=CELL;type=VOICE;waid=6285372906349:+62 853-7290-6349\n' // JANGAN KEK BABI SU
             + 'END:VCARD'
 prefix = '/'
 blocked = ['6289655478810@s.whatsapp.net']
