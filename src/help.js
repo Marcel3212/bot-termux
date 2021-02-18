@@ -4,12 +4,12 @@ const help = (prefix) => {
 ⛶┃ *༺ HASUFA TEAM ༻*
 ┊╭────── 
 ┊┠➤ *THANX TO ALLAH*
-┊┠➤ *ARIFI RAZZAQ OFFICIAL*
+┊┠➤ *Marcel BOT ..*
 ┠╯
-*┃⛨⧿✧ུNama : EREN BOT*
+*┃⛨⧿✧ུNama : CEL BOT*
 *┃⛨⧿✧ུVersi : V5. 0.0*
 *┃⛨⧿✧ུStatus : ACTIVE*
-*┃⛨⧿✧ུPenulis : ARIFI & TEAM*
+*┃⛨⧿✧ུPenulis : Cel & TEAM*
 *┃⛨⧿✧ུAwalan : 「 ${prefix} 」*
 ╰───────────────╗
 ╔───────────────╯
@@ -108,7 +108,7 @@ const help = (prefix) => {
 └ ♡ۣۜۜ፝͜͜͡͡✿➣ *${prefix}antilinkgroup [1/0]* 
 
 
-┌──「 *HASUFA BUSSINESS* 」
+┌──「 *CEL BUSSINESS* 」
 │
 ├ ♡ۣۜۜ፝͜͜͡͡✿➣ *${prefix}kontakdeveloper*
 ├ ♡ۣۜۜ፝͜͜͡͡✿➣ *${prefix}daftarmemberselebgram*
@@ -118,13 +118,13 @@ const help = (prefix) => {
         ▉║█▐▉▉▐▐▍█║▍▉▏▍▍   
                                         
                                
-          *© ARIFI RAZZAQ*
+          *© Marcel BOT*
           *TEAM CREATOR*        
           
                                                         
                                                                                                                                                     
 *Jangan Lupa Untuk Donasi Agar Bot Selalu Aktif*
-https://saweria.co/Arifirazzaq2001
+
 `
 }
 exports.help = help
