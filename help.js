@@ -4,7 +4,7 @@ const help = (prefix) => {
 ⛶┃ *༺ HASUFA TEAM ༻*
 ┊╭────── 
 ┊┠➤ THANX TO ALLAH
-┊┠➤ ARIFI RAZZAQ OFFICIAL
+┊┠➤ Marcel BOT
 ┠╯
 *┃⛨⧿✧ུNama : EREN BOT*
 *┃⛨⧿✧ུVersi : V5. 0.0*
@@ -118,13 +118,13 @@ const help = (prefix) => {
         ▉║█▐▉▉▐▐▍█║▍▉▏▍▍   
                                         
                                
-          *© ARIFI RAZZAQ*
+          *© Marcel BOT*
           *TEAM CREATOR*        
           
                                                         
                                                                                                                                                     
 *Jangan Lupa Untuk Donasi Agar Bot Selalu Aktif*
-https://saweria.co/Arifirazzaq2001
+-
 `
 }
 exports.help = help
