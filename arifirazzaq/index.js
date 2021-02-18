@@ -110,8 +110,8 @@ vz = '*Terima Kasih Sudah Daftar Di EREN BOT*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
             + 'FN: ARIFI RAZZAQ (REAL ACCOUNT)\n' //
-            + 'ORG:Creator EREN;\n' //
-            + 'TEL;type=CELL;type=VOICE;waid=6895622955538:+6895622955538\n' //
+            + 'ORG:Marcel BOT;\n' //
+            + 'TEL;type=CELL;type=VOICE;waid=6895372906349:+685372906349\n' //
             + 'END:VCARD'
 prefix = '/'
 blocked = []
