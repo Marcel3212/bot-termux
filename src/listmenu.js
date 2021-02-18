@@ -1,7 +1,6 @@
 const listmenu = (prefix) => { 
 	return `                 
 
-SUBSCRIBE: ARIFI RAZZAQ OFFICIAL
 📍 UNTUK INFORMASI UPDATE PEMBARUAN WHATSAPP BOT TERBARU!
 
 ┌──「 *OWNER* 」
@@ -489,13 +488,13 @@ SUBSCRIBE: ARIFI RAZZAQ OFFICIAL
         ▉║█▐▉▉▐▐▍█║▍▉▏▍▍   
                                         
                                
-          *© ARIFI RAZZAQ*
+          *© MARCEL BOT*
           *TEAM CREATOR*        
           
                                                         
                                                                                                                                                     
 *Jangan Lupa Untuk Donasi Agar Bot Selalu Aktif*
-https://saweria.co/Arifirazzaq2001
+-
 `
 }
 exports.listmenu = listmenu
